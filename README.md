@@ -102,11 +102,11 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 <p align="center"><b>Infrastructure & Backend</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,kafka,linux,githubactions&theme=dark" alt="Docker, Kubernetes, AWS, Kafka, Linux, GitHub Actions"/>
   <br/>
-  <img src="https://skillicons.dev/icons?i=spring,django,flask,nodejs,postgres,redis&theme=dark" alt="Spring, Django, Flask, Node.js, PostgreSQL, Redis"/>
+  <img src="https://skillicons.dev/icons?i=spring,django,nodejs,postgres,redis&theme=dark" alt="Spring, Django, Node.js, PostgreSQL, Redis"/>
 </p>
 
-<p align="center"><b>Frontend & Games</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=react,vue,tailwind,unity&theme=dark" alt="React, Vue, Tailwind, Unity"/>
+<p align="center"><b>Frontend</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,vue,tailwind&theme=dark" alt="React, Vue, Tailwind"/>
 </p>
 
 ## 🐍 Contributions
