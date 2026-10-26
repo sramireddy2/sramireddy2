@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:2CB1BC,100:F25F4C&height=210&section=header&text=Shashank%20Ramireddy&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Computer%20Engineering%20%40%20Georgia%20Tech&descSize=18&descAlignY=57&animation=fadeIn" alt="Shashank Ramireddy, Computer Engineering at Georgia Tech" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:161B22&height=170&section=header&text=Shashank%20Ramireddy&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=Computer%20Engineering%20%40%20Georgia%20Tech&descSize=16&descAlignY=68&descColor=8B949E&animation=fadeIn" alt="Shashank Ramireddy, Computer Engineering at Georgia Tech" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://sramireddy2.github.io">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7F5AF0&center=true&vCenter=true&width=640&lines=Reinforcement+learning+research+%40+GT+PAIR+Lab;ML+infrastructure+on+Kubernetes+and+Ray;Distributed%2C+real-time+data+systems;Backends+with+queues%2C+caches+and+tests" alt="Reinforcement learning, ML infrastructure, distributed systems, backend engineering"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=39D353&center=true&vCenter=true&width=640&lines=%24+reinforcement+learning+research+%40+GT+PAIR+Lab;%24+ml+infrastructure+on+kubernetes+and+ray;%24+distributed%2C+real-time+data+systems;%24+backends+with+queues%2C+caches+and+tests" alt="Reinforcement learning, ML infrastructure, distributed systems, backend engineering"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://sramireddy2.github.io"><img src="https://img.shields.io/badge/Website-sramireddy2.github.io-7F5AF0?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="https://www.linkedin.com/in/shashankramireddy/"><img src="https://img.shields.io/badge/in-LinkedIn-0A66C2?style=for-the-badge&labelColor=0A66C2" alt="LinkedIn"/></a>
-  <a href="mailto:sramireddy7@gatech.edu"><img src="https://img.shields.io/badge/Email-sramireddy7%40gatech.edu-F25F4C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://sramireddy2.github.io"><img src="https://img.shields.io/badge/Website-sramireddy2.github.io-161B22?style=for-the-badge&logo=googlechrome&labelColor=0D1117&logoColor=39D353" alt="Website"/></a>
+  <a href="https://www.linkedin.com/in/shashankramireddy/"><img src="https://img.shields.io/badge/in-LinkedIn-161B22?style=for-the-badge&labelColor=0D1117&logoColor=39D353" alt="LinkedIn"/></a>
+  <a href="mailto:sramireddy7@gatech.edu"><img src="https://img.shields.io/badge/Email-sramireddy7%40gatech.edu-161B22?style=for-the-badge&logo=gmail&labelColor=0D1117&logoColor=39D353" alt="Email"/></a>
 </p>
 
 ## 👋 Hi, I'm Shashank
@@ -48,28 +48,28 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 
 ## 🚀 My Work
 
-<img src="https://img.shields.io/badge/ML_Infrastructure_%26_AI_Systems-7F5AF0?style=for-the-badge&logo=kubernetes&logoColor=white" alt="ML Infrastructure and AI Systems"/>
+<img src="https://img.shields.io/badge/ML_Infrastructure_%26_AI_Systems-161B22?style=for-the-badge&logo=kubernetes&labelColor=0D1117&logoColor=39D353" alt="ML Infrastructure and AI Systems"/>
 
 | Project | What it does | Built with |
 |:--|:--|:--|
 | ☸️ **[KubeRay](https://github.com/kuberay-project/kuberay/pull/5448)**<br/><sub>open-source PR</sub> | Fixed the RayCluster GCS fault-tolerance cleanup Job inheriting the head Pod's anti-affinity. GKE Autopilot rejected the Job, which leaked the Redis namespace and stalled cluster deletion. | Go · Kubernetes · Ray |
 | 🕸️ **[NetTwin](https://github.com/sramireddy2/NetTwin)** | A team of AI agents troubleshoots a containerized digital twin of a network (FRR routers running OSPF and BGP, VLANs, nftables). Agents act only through two typed MCP servers, and an independent verifier checks every fix before a person approves it. Benchmarked on 22 planted faults. | Python · MCP · containerlab · Docker |
 
-<img src="https://img.shields.io/badge/Distributed_Systems_%26_Backend-2CB1BC?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Distributed Systems and Backend"/>
+<img src="https://img.shields.io/badge/Distributed_Systems_%26_Backend-161B22?style=for-the-badge&logo=apachekafka&labelColor=0D1117&logoColor=39D353" alt="Distributed Systems and Backend"/>
 
 | Project | What it does | Built with |
 |:--|:--|:--|
 | 🚌 **[Headway](https://github.com/sramireddy2/marta-headway)** | Detects bus bunching in Atlanta in real time. Streams MARTA's GTFS-Realtime feed for ~175 buses into Kafka (partitioned by route to keep each line in order), measures gaps in Spark, and pushes a live map over WebSockets once a second. 202 tests plus JMH concurrency benchmarks. | Java 21 · Kafka · Spark · Spring Boot · Docker |
 | 🧬 **[cellengine](https://github.com/sramireddy2/cellengine)** | Interactive single-cell RNA-seq clustering service. Django REST API, Postgres, a Redis job queue and S3 storage, with workers autoscaled on queue depth by KEDA on Kubernetes. Caching the expensive graph makes re-clustering take **~1 s instead of ~6 s**. | Django · PostgreSQL · Redis · Kubernetes |
 
-<img src="https://img.shields.io/badge/Performance_%26_Algorithms-F25F4C?style=for-the-badge&logo=rust&logoColor=white" alt="Performance and Algorithms"/>
+<img src="https://img.shields.io/badge/Performance_%26_Algorithms-161B22?style=for-the-badge&logo=rust&labelColor=0D1117&logoColor=39D353" alt="Performance and Algorithms"/>
 
 | Project | What it does | Built with |
 |:--|:--|:--|
 | 🟩 **[Wordle Solver](https://github.com/sramireddy2/rustwordlesolver)** | Entropy-driven solver with an exact branch-and-bound endgame. Solves all 2,315 answers in six guesses or fewer, averaging **3.46**, and benchmarks every answer in 2–3 s. | Rust |
 | 🎵 **[fifths](https://github.com/sramireddy2/fifths)** | Real-time instrument tuner. YIN pitch detection is fed by a lock-free single-producer ring buffer, so the audio thread never takes a lock. | C++20 · CMake · miniaudio |
 
-<img src="https://img.shields.io/badge/Apps_%26_Hackathons-FFB703?style=for-the-badge&logo=devpost&logoColor=white" alt="Apps and Hackathons"/>
+<img src="https://img.shields.io/badge/Apps_%26_Hackathons-161B22?style=for-the-badge&logo=devpost&labelColor=0D1117&logoColor=39D353" alt="Apps and Hackathons"/>
 
 | Project | What it does | Built with |
 |:--|:--|:--|
@@ -86,8 +86,8 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 <p align="center"><b>ML & Data</b><br/><br/>
   <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="PyTorch, scikit-learn"/>
   <br/>
-  <img src="https://img.shields.io/badge/Ray-028CF0?style=for-the-badge&logo=ray&logoColor=white" alt="Ray"/>
-  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark"/>
+  <img src="https://img.shields.io/badge/Ray-161B22?style=for-the-badge&logo=ray&labelColor=0D1117&logoColor=39D353" alt="Ray"/>
+  <img src="https://img.shields.io/badge/Apache_Spark-161B22?style=for-the-badge&logo=apachespark&labelColor=0D1117&logoColor=39D353" alt="Apache Spark"/>
 </p>
 
 <p align="center"><b>Infrastructure & Backend</b><br/><br/>
@@ -116,5 +116,5 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F25F4C,50:2CB1BC,100:7F5AF0&height=120&section=footer" alt="" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161B22,100:0D1117&height=4&section=footer" alt="" width="100%"/>
 </p>
