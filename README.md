@@ -19,9 +19,7 @@
 I'm a Computer Engineering student at Georgia Tech. I like the systems underneath machine learning: the clusters, queues and schedulers that let models train, scale and serve.
 
 - 🔬 **Now:** Student Researcher at Georgia Tech's PAIR Lab, working on reinforcement learning
-- 🌱 **Open source:** contributing to [KubeRay](https://github.com/kuberay-project/kuberay), the operator that runs Ray on Kubernetes
-- 🏆 **IMC Prosperity 4:** 78th overall and 25th in the US (top 0.26%)
-- 🎓 **B.S. Computer Engineering**, Georgia Tech · GPA 3.92 / 4.0
+- 🎓 **B.S. Computer Engineering**, Georgia Tech
 
 ## 🎯 What I work on
 
@@ -73,7 +71,6 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 |:--|:--|:--|
 | 🚌 **[Headway](https://github.com/sramireddy2/marta-headway)** | Detects bus bunching in Atlanta in real time. Streams MARTA's GTFS-Realtime feed for ~175 buses into Kafka (partitioned by route to keep each line in order), measures gaps in Spark, and pushes a live map over WebSockets once a second. 202 tests plus JMH concurrency benchmarks. | Java 21 · Kafka · Spark · Spring Boot · Docker |
 | 🧬 **[cellengine](https://github.com/sramireddy2/cellengine)** | Interactive single-cell RNA-seq clustering service. Django REST API, Postgres, a Redis job queue and S3 storage, with workers autoscaled on queue depth by KEDA on Kubernetes. Caching the expensive graph makes re-clustering take **~1 s instead of ~6 s**. | Django · PostgreSQL · Redis · Kubernetes |
-| 🐾 **[Animal Welfare Tracker](https://github.com/sramireddy2/animalwelfare)** | Pipeline that scrapes news RSS feeds, scores sentiment with VADER and TextBlob, stores daily rollups in SQLite, and serves a Flask + Plotly dashboard with CSV export. | Python · Flask · SQLite |
 
 <img src="https://img.shields.io/badge/Performance_%26_Algorithms-F25F4C?style=for-the-badge&logo=rust&logoColor=white" alt="Performance and Algorithms"/>
 
@@ -89,7 +86,6 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 | 🧸 **[Tinker's Toybox](https://github.com/sramireddy2/tinkerstoybox)**<br/><sub>[▶ play it](https://sramireddy2.github.io/tinkerstoybox/)</sub> | Perspective puzzle game: toys keep their on-screen size, so drop one far away and it lands huge. 15 levels, PhysX, 2,100+ tests, 60 fps in the browser. | Unity · C# · WebGL |
 | 👁️ **[RetinAI](https://devpost.com/software/retinai-bfdi2u)** | Chrome extension that adapts any webpage to an accessibility profile, with Gemini on the DOM, ElevenLabs spoken summaries and Snowflake analytics. | Node.js · Firebase · Gemini |
 | 🏥 **[LifeLine](https://github.com/sramireddy2/LifeLine)** | Computer-vision monitor for ICU patients: face, emotion and head-pose tracking with movement alerts and a live dashboard, to help nurses respond faster. | Python · MediaPipe · DeepFace |
-| 📈 **[Crypto Tracker](https://github.com/sramireddy2/vue-crypto-tracker)**<br/><sub>[live site](https://sramireddy2.github.io/vue-crypto-tracker/)</sub> | Live market dashboard for 250 coins, with Binance WebSocket prices and 7-day sparklines. | Vue 3 · Pinia · Tailwind |
 
 ## 🛠️ Tech Stack
 
