@@ -46,17 +46,7 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
   </tr>
 </table>
 
-## 💼 Experience
-
-| | Role | Where | When |
-|:-:|:--|:--|:--|
-| <img src="https://sramireddy2.github.io/logos/gatech.png" height="20" alt="Georgia Tech"/> | **Student Researcher** | Georgia Tech · PAIR Lab | Aug 2026 – now |
-| <img src="https://sramireddy2.github.io/logos/deloitte.svg" height="20" alt="Deloitte"/> | **Software Engineering Intern** | Deloitte | Jun – Jul 2026 |
-| <img src="https://sramireddy2.github.io/logos/gatech.png" height="20" alt="Georgia Tech"/> | **Student Researcher** | Georgia Tech · CCG / Animal Lab | Jul 2025 – May 2026 |
-| <img src="https://sramireddy2.github.io/logos/hireko.png" height="20" alt="Hireko.ai"/> | **Software Engineering Intern** | Hireko.ai | Sep – Dec 2025 |
-| <img src="https://sramireddy2.github.io/logos/argonne.svg" height="20" alt="Argonne National Laboratory"/> | **Data Science Intern** | Argonne National Laboratory · Ramanathan Lab | Aug 2024 – May 2025 |
-
-## 🚀 Projects
+## 🚀 My Work
 
 <img src="https://img.shields.io/badge/ML_Infrastructure_%26_AI_Systems-7F5AF0?style=for-the-badge&logo=kubernetes&logoColor=white" alt="ML Infrastructure and AI Systems"/>
 
