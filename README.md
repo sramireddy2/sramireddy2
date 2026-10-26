@@ -74,7 +74,8 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 | Project | What it does | Built with |
 |:--|:--|:--|
 | 👁️ **[RetinAI](https://devpost.com/software/retinai-bfdi2u)** | Chrome extension that adapts any webpage to an accessibility profile, with Gemini on the DOM, ElevenLabs spoken summaries and Snowflake analytics. | Node.js · Firebase · Gemini |
-| 🏥 **[LifeLine](https://github.com/sramireddy2/LifeLine)** | Computer-vision monitor for ICU patients: face, emotion and head-pose tracking with movement alerts and a live dashboard, to help nurses respond faster. | Python · MediaPipe · DeepFace |
+| 🏎️ **[ApexLens](https://devpost.com/software/apexlens)** | AI race strategist for Formula 1. Embeds F1 telemetry into a Pinecone vector database so similarity search can surface comparable race situations, and Gemini turns them into live strategy insights like undercut calls and tire degradation. | Python · FastAPI · Pinecone · React |
+| 🏥 **[LifeLine](https://devpost.com/software/lifeline-q1r42u)** | Computer-vision monitor for ICU patients: face, emotion and head-pose tracking with movement alerts and a live dashboard, to help nurses respond faster. | Python · MediaPipe · DeepFace |
 
 ## 🛠️ Tech Stack
 
