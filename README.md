@@ -16,7 +16,7 @@
 
 ## 👋 Hi, I'm Shashank
 
-I'm a Computer Engineering student at Georgia Tech. I like the systems underneath machine learning: the clusters, queues and schedulers that let models train, scale and serve. I'm currently doing reinforcement learning research at GT's PAIR Lab and contributing to open-source Kubernetes tooling for distributed ML.
+I'm a Computer Engineering student at Georgia Tech. I like the systems underneath machine learning: the clusters, queues and schedulers that let models train, scale and serve.
 
 - 🔬 **Now:** Student Researcher at Georgia Tech's PAIR Lab, working on reinforcement learning
 - 🌱 **Open source:** contributing to [KubeRay](https://github.com/kuberay-project/kuberay), the operator that runs Ray on Kubernetes
@@ -33,7 +33,7 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
     </td>
     <td width="50%" valign="top">
       <h3>⚙️ ML Infrastructure</h3>
-      Kubernetes operators for distributed ML (<a href="https://github.com/kuberay-project/kuberay/pull/5448">KubeRay</a>), and compilers that fit LLM context into a hard token budget (<a href="https://github.com/sramireddy2/contextslice">ContextSlice</a>).
+      Kubernetes operators for distributed ML (<a href="https://github.com/kuberay-project/kuberay/pull/5448">KubeRay</a>), and AI agents that change infrastructure only through typed tools and verified fixes (<a href="https://github.com/sramireddy2/NetTwin">NetTwin</a>).
     </td>
   </tr>
   <tr>
@@ -65,7 +65,6 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 | Project | What it does | Built with |
 |:--|:--|:--|
 | ☸️ **[KubeRay](https://github.com/kuberay-project/kuberay/pull/5448)**<br/><sub>open-source PR</sub> | Fixed the RayCluster GCS fault-tolerance cleanup Job inheriting the head Pod's anti-affinity. GKE Autopilot rejected the Job, which leaked the Redis namespace and stalled cluster deletion. | Go · Kubernetes · Ray |
-| 🧩 **[ContextSlice](https://github.com/sramireddy2/contextslice)** | Compiles a huge Figma design into the smallest useful context for a coding agent, using dependency slicing, Merkle dedupe, PageRank and an exact integer program under a token budget. One screen goes from **1.33M to 948 tokens**, and a local 7B model's component-reuse recall rises from **0.14 to 0.50**. | Python · TypeScript · HiGHS |
 | 🕸️ **[NetTwin](https://github.com/sramireddy2/NetTwin)** | A team of AI agents troubleshoots a containerized digital twin of a network (FRR routers running OSPF and BGP, VLANs, nftables). Agents act only through two typed MCP servers, and an independent verifier checks every fix before a person approves it. Benchmarked on 22 planted faults. | Python · MCP · containerlab · Docker |
 
 <img src="https://img.shields.io/badge/Distributed_Systems_%26_Backend-2CB1BC?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Distributed Systems and Backend"/>
