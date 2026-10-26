@@ -79,18 +79,17 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 | 🟩 **[Wordle Solver](https://github.com/sramireddy2/rustwordlesolver)** | Entropy-driven solver with an exact branch-and-bound endgame. Solves all 2,315 answers in six guesses or fewer, averaging **3.46**, and benchmarks every answer in 2–3 s. | Rust |
 | 🎵 **[fifths](https://github.com/sramireddy2/fifths)** | Real-time instrument tuner. YIN pitch detection is fed by a lock-free single-producer ring buffer, so the audio thread never takes a lock. | C++20 · CMake · miniaudio |
 
-<img src="https://img.shields.io/badge/Apps%2C_Games_%26_Hackathons-FFB703?style=for-the-badge&logo=unity&logoColor=white" alt="Apps, Games and Hackathons"/>
+<img src="https://img.shields.io/badge/Apps_%26_Hackathons-FFB703?style=for-the-badge&logo=devpost&logoColor=white" alt="Apps and Hackathons"/>
 
 | Project | What it does | Built with |
 |:--|:--|:--|
-| 🧸 **[Tinker's Toybox](https://github.com/sramireddy2/tinkerstoybox)**<br/><sub>[▶ play it](https://sramireddy2.github.io/tinkerstoybox/)</sub> | Perspective puzzle game: toys keep their on-screen size, so drop one far away and it lands huge. 15 levels, PhysX, 2,100+ tests, 60 fps in the browser. | Unity · C# · WebGL |
 | 👁️ **[RetinAI](https://devpost.com/software/retinai-bfdi2u)** | Chrome extension that adapts any webpage to an accessibility profile, with Gemini on the DOM, ElevenLabs spoken summaries and Snowflake analytics. | Node.js · Firebase · Gemini |
 | 🏥 **[LifeLine](https://github.com/sramireddy2/LifeLine)** | Computer-vision monitor for ICU patients: face, emotion and head-pose tracking with movement alerts and a live dashboard, to help nurses respond faster. | Python · MediaPipe · DeepFace |
 
 ## 🛠️ Tech Stack
 
 <p align="center"><b>Languages</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,rust,go,ts,js,cs&theme=dark" alt="Python, Java, C++, C, Rust, Go, TypeScript, JavaScript, C#"/>
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,rust,go,ts,js&theme=dark" alt="Python, Java, C++, C, Rust, Go, TypeScript, JavaScript"/>
 </p>
 
 <p align="center"><b>ML & Data</b><br/><br/>
