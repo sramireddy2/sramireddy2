@@ -27,7 +27,7 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 Reinforcement Learning</h3>
-      Research at GT's PAIR Lab on how agents learn from interaction, plus the compute and tooling it takes to run those experiments at scale.
+      Research at GT's PAIR Lab on how agents learn from interaction, plus open-source work on PyTorch's RL library (<a href="https://github.com/pytorch/rl/pull/4679">TorchRL</a>).
     </td>
     <td width="50%" valign="top">
       <h3>⚙️ ML Infrastructure</h3>
@@ -53,6 +53,7 @@ I'm a Computer Engineering student at Georgia Tech. I like the systems underneat
 | Project | What it does | Built with |
 |:--|:--|:--|
 | ☸️ **[KubeRay](https://github.com/kuberay-project/kuberay/pull/5448)**<br/><sub>open-source PR</sub> | Fixed the RayCluster GCS fault-tolerance cleanup Job inheriting the head Pod's anti-affinity. GKE Autopilot rejected the Job, which leaked the Redis namespace and stalled cluster deletion. | Go · Kubernetes · Ray |
+| 🔥 **[TorchRL](https://github.com/pytorch/rl/pull/4679)**<br/><sub>open-source PR</sub> | Got PyTorch RL's optional-dependency CI job running again after it had stopped at test collection on every push to `main` for weeks. Made the trainer tests' Hydra imports optional, so 278 tests collect again without Hydra. | Python · PyTorch · pytest |
 | 🕸️ **[NetTwin](https://github.com/sramireddy2/NetTwin)** | A team of AI agents troubleshoots a containerized digital twin of a network (FRR routers running OSPF and BGP, VLANs, nftables). Agents act only through two typed MCP servers, and an independent verifier checks every fix before a person approves it. Benchmarked on 22 planted faults. | Python · MCP · containerlab · Docker |
 
 <img src="https://img.shields.io/badge/Distributed_Systems_%26_Backend-161B22?style=for-the-badge&logo=apachekafka&labelColor=0D1117&logoColor=39D353" alt="Distributed Systems and Backend"/>
